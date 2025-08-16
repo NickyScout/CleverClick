@@ -17,11 +17,13 @@ jobs:
       - run: npm ci || npm i
       - run: npm run build
       - run: ls -la dist
-
       - uses: Azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          action: 'upload'
-          skip_app_build: true            # << мы уже собрали
-          app_artifact_location: 'dist'   # << готовый артефакт
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+            action: 'upload'
+            skip_app_build: true
+            app_artifact_location: 'dist'
+            app_location: '/'            # чтобы не было пустой строки в логе
+            repo_token: ${{ secrets.GITHUB_TOKEN }}
+
+
