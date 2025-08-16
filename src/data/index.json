@@ -1,0 +1,14 @@
+{
+  "order": [
+    "step-1-download-helper",
+    "step-2-fake-antivirus",
+    "step-3-overcollect-personal-data",
+    "step-4-fake-payment-gateway",
+    "step-5-lottery-prize",
+    "step-6-friend-shortlink",
+    "step-7-pop-up-update",
+    "step-8-scareware-counter",
+    "step-9-permission-grab",
+    "step-10-password-reset-email"
+  ]
+}

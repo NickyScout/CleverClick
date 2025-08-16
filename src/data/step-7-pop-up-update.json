@@ -1,0 +1,21 @@
+{
+  "id": "step-7-pop-up-update",
+  "title": "System Alert",
+  "body": "Your system is outdated. Install update now from this page.",
+  "choices": [
+    {
+      "id": "install",
+      "label": "Install from this pop-up",
+      "feedback": "Risky choice. System updates do not come from web pop-ups. This could install malware."
+    },
+    {
+      "id": "settings",
+      "label": "Open device Settings to update",
+      "feedback": "Exactly right. Update only via your device\u2019s built-in Settings or the official vendor site."
+    }
+  ],
+  "meta": {
+    "category": "drive-by/malware",
+    "difficulty": 2
+  }
+}

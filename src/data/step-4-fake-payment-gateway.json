@@ -1,0 +1,21 @@
+{
+  "id": "step-4-fake-payment-gateway",
+  "title": "Complete Payment",
+  "body": "Please pay \u00a34.99 via SecurePay-Now to finish activation. The page looks familiar but the web address is different.",
+  "choices": [
+    {
+      "id": "pay",
+      "label": "Pay now",
+      "feedback": "Risky choice. This is a look-alike payment page. Attackers copy logos but the address is wrong. Your card could be stolen."
+    },
+    {
+      "id": "bank",
+      "label": "Close and contact my bank",
+      "feedback": "Well done. Close suspicious pages and contact your bank using the phone number on the back of your card."
+    }
+  ],
+  "meta": {
+    "category": "phishing/payment",
+    "difficulty": 2
+  }
+}

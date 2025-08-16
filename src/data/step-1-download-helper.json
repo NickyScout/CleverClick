@@ -1,0 +1,21 @@
+{
+  "id": "step-1-download-helper",
+  "title": "Install Helper Tool",
+  "body": "To keep your computer safe, please download and install our Helper Tool.",
+  "choices": [
+    {
+      "id": "install",
+      "label": "Download and Install",
+      "feedback": "Risky choice. Unknown files can hide malware. Only download apps from official stores or the company\u2019s real website."
+    },
+    {
+      "id": "decline",
+      "label": "No, take me back",
+      "feedback": "Good choice. Do not install tools from pop-ups or unknown links. Use the official store or the company\u2019s real website."
+    }
+  ],
+  "meta": {
+    "category": "phishing/installers",
+    "difficulty": 1
+  }
+}

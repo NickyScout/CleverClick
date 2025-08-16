@@ -1,0 +1,21 @@
+{
+  "id": "step-3-overcollect-personal-data",
+  "title": "Create Your Account",
+  "body": "To activate full protection, enter: full name, home address, phone, date of birth, and card number.",
+  "choices": [
+    {
+      "id": "fill",
+      "label": "Fill the form",
+      "feedback": "Risky choice. This page asks for sensitive data it should not need (card number). Never share bank details to \u2018activate protection\u2019."
+    },
+    {
+      "id": "check",
+      "label": "Stop and check the website",
+      "feedback": "Correct. Check the web address (URL), the padlock (HTTPS) and the company name. Avoid sharing bank or card data on sign-up pages."
+    }
+  ],
+  "meta": {
+    "category": "phishing/data-harvest",
+    "difficulty": 1
+  }
+}

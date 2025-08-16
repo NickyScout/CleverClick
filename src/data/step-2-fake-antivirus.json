@@ -1,0 +1,21 @@
+{
+  "id": "step-2-fake-antivirus",
+  "title": "Your device is unprotected!",
+  "body": "Install \u2018UltraSecure AV\u2019 now to remove 12 threats.",
+  "choices": [
+    {
+      "id": "install",
+      "label": "Install Now",
+      "feedback": "Risky choice. Fake antiviruses steal data. Real security apps are installed from your device\u2019s official store or vendor site."
+    },
+    {
+      "id": "store",
+      "label": "Open official app store",
+      "feedback": "Great choice. Check the app\u2019s name, publisher and reviews in the official store before installing."
+    }
+  ],
+  "meta": {
+    "category": "scareware/rogue-av",
+    "difficulty": 1
+  }
+}

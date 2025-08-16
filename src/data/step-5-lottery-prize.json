@@ -1,0 +1,21 @@
+{
+  "id": "step-5-lottery-prize",
+  "title": "Congratulations!",
+  "body": "You won a \u00a3500 gift card! To claim, enter your address and bank details.",
+  "choices": [
+    {
+      "id": "claim",
+      "label": "Claim prize",
+      "feedback": "Risky choice. Real prizes don\u2019t ask for bank details. This is a common scam to steal money and identity."
+    },
+    {
+      "id": "ignore",
+      "label": "Ignore this message",
+      "feedback": "Right move. If you didn\u2019t enter a contest, it\u2019s almost certainly a scam."
+    }
+  ],
+  "meta": {
+    "category": "advance-fee/lottery",
+    "difficulty": 1
+  }
+}

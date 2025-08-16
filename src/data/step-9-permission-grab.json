@@ -1,0 +1,21 @@
+{
+  "id": "step-9-permission-grab",
+  "title": "App Permissions",
+  "body": "\u2018QuickScanner\u2019 requests: Camera, Microphone, Contacts, Location, SMS, and Files \u2014 to \u2018improve protection\u2019.",
+  "choices": [
+    {
+      "id": "allow",
+      "label": "Allow all permissions",
+      "feedback": "Risky choice. Unneeded access lets apps read messages, listen, or copy contacts. Only allow what is required."
+    },
+    {
+      "id": "deny",
+      "label": "Deny unnecessary permissions",
+      "feedback": "Smart choice. Limit permissions. If an app won\u2019t work without excessive access, don\u2019t use it."
+    }
+  ],
+  "meta": {
+    "category": "privacy/permissions",
+    "difficulty": 1
+  }
+}

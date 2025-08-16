@@ -1,0 +1,21 @@
+{
+  "id": "step-6-friend-shortlink",
+  "title": "New Message from Anna",
+  "body": "Look at this secret photo of you! http://bit.ly/\u2026",
+  "choices": [
+    {
+      "id": "open",
+      "label": "Open the link",
+      "feedback": "Risky choice. Short links can hide dangerous sites. Friends\u2019 accounts can be hacked and send bait links."
+    },
+    {
+      "id": "verify",
+      "label": "Ask my friend first",
+      "feedback": "Excellent. Confirm by calling or messaging your friend on another channel before clicking any link."
+    }
+  ],
+  "meta": {
+    "category": "social/phishing",
+    "difficulty": 1
+  }
+}

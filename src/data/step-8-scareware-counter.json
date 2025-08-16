@@ -1,0 +1,21 @@
+{
+  "id": "step-8-scareware-counter",
+  "title": "Immediate Threat Detected",
+  "body": "We found 37 viruses. Download \u2018QuickFix\u2019 to clean now. (Timer: 2:59)",
+  "choices": [
+    {
+      "id": "download",
+      "label": "Download QuickFix",
+      "feedback": "Risky choice. Timers and scary numbers are tricks to rush you. The app could be spyware."
+    },
+    {
+      "id": "close",
+      "label": "Close this pop-up",
+      "feedback": "Good job. Close the tab/pop-up. Run your trusted antivirus (from the official store) and scan your device."
+    }
+  ],
+  "meta": {
+    "category": "scareware",
+    "difficulty": 1
+  }
+}
