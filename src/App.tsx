@@ -10,11 +10,11 @@ export default function App() {
   useEffect(() => {
     const load = async () => {
       try {
-        const idxRes = await fetch('/src/data/index.json')
+        const idxRes = await fetch('/data/index.json')
         const idx: IndexFile = await idxRes.json()
         const scenarioEntries = await Promise.all(
           idx.order.map(async (id) => {
-            const res = await fetch(`/src/data/${id}.json`)
+            const res = await fetch(`/data/${id}.json`)
             const data: Scenario = await res.json()
             return [id, data] as const
           })
